@@ -75,7 +75,7 @@ def main():
         #Realizar predicción con el modelo Tree
         y_pred_Tree = model_Tree.predict(data_preparada) #Predicción del modelo Tree
         
-        st.success(f"🎮 El cliente invertirá: {y_pred_Tree[0]} dolares") #Mostrar la predicción del modelo Tree
+        st.success(f"🎮 El cliente invertirá: {y_pred_Tree[0]:.1f} dolares") #Mostrar la predicción del modelo Tree
         st.write("Precisión del modelo: 96%")
 
  
